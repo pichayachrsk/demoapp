@@ -61,9 +61,9 @@ yarn ios
 - You can check the main code in App.tsx. It contains the element rendering, event listener functional for submit/delete button and input field.
 - You can check the persist data functional in src/service/storeService.ts. It contains storing and getting data for local storage.
 - Here all of the features
-     Display default items/local data on launch (if there is no local data, will display default items)
-     Allow users to add new items via input field and button
-     Update the list immediately upon adding new items
-     Mark items as completed by strikethrough and checkbox
-     Delete items from the list
-     Persist data using local storage
+    - Display default items/local data on launch (if there is no local data, will display default items)
+    - Allow users to add new items via input field and button
+    - Update the list immediately upon adding new items
+    - Mark items as completed by strikethrough and checkbox
+    - Delete items from the list
+    - Persist data using local storage
